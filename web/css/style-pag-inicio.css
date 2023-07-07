@@ -1,0 +1,73 @@
+
+/* Container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 170px;
+    padding: 20px;
+  }
+  
+  .Organicos,
+  .Inorganicos,
+  .Biohazard,
+  .Medicamentos {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    margin: 10px;
+  }
+  
+  .Organicos img,
+  .Inorganicos img,
+  .Biohazard img,
+  .Medicamentos img {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border: none;
+  }
+  
+  /* Contenido */
+  .contenido {
+    width: 100%;
+    height: 320px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .conten {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  
+  .card {
+    width: 24rem;
+    height: 12rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    overflow: hidden;
+  }
+  
+  .card + .card {
+    margin-left: -10%;
+  }
+  
+  .card:hover {
+    transform: rotate(-10deg);
+    z-index: 1;
+  }
+  
+  .card:hover .card {
+    transform: translate(3rem);
+  }
+  
+  .conten .card img {
+    width: 100%;
+    height: 31vh;
+  }

@@ -1,0 +1,59 @@
+#container-infoInorga {
+  height: 600px;
+  display: block;
+  position: relative;
+  text-align: center;
+  background-color: black;
+  margin-bottom: 100px;
+}
+
+#fondoInorganicos {
+  height: 600px;
+  width: 1500px;
+  opacity: 70%;
+  display: block;
+}
+
+#infoInorganic-titulo {
+  position: absolute;
+  top: 45%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: white;
+  border: #51a736;
+  text-shadow: 1px 1px 2px black;
+}
+
+#infoInorganic-texto {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#infoInorganic-texto p {
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 2px black;
+}
+
+.inorganic-options-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  min-height: 100vh;
+}
+
+.inorganic-option1,
+.inorganic-option2,
+.inorganic-option3,
+.inorganic-option4,
+.inorganic-option5,
+.inorganic-option6 {
+  flex: 0 0 20.23529rem;
+  height: 25.41176rem;
+  margin: 0 1rem 2rem;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.2);
+}

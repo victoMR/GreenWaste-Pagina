@@ -1,0 +1,151 @@
+/* General */
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header */
+  header {
+    background-color: #ade287;
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .logo {
+    display: flex;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    filter: contrast(100%);
+  }
+  
+  .logo img {
+    width: 200px;
+    height: auto;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+  }
+  
+  .search-input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+    height: 35px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  
+  .search-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    height: 36px;
+  }
+  
+  .search-button img {
+    width: 30px;
+    height: 35px;
+    background-color: #387e19;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  /* Footer */
+footer {
+    width: 100%;
+    background: #51a736;
+    color: white;
+  }
+  
+  .container-footer-all {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+  }
+  
+  .container-body {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .columna1,
+  .columna2,
+  .columna3 {
+    max-width: 400px;
+  }
+  
+  .columna1 h1,
+  .columna2 h1,
+  .columna3 h1 {
+    font-size: 22px;
+  }
+  
+  .columna1 p {
+    font-size: 14px;
+    color: white;
+    margin-top: 20px;
+  }
+  
+  .row,
+  .row2 {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .row img,
+  .row2 img {
+    width: 36px;
+    height: 36px;
+  }
+  
+  .row label,
+  .row2 label {
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+  }
+  
+  .container-footer {
+    width: 100%;
+    background: #265910;
+  }
+  
+  .footer {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  /* Media Queries */
+  @media screen and (max-width: 1100px) {
+    .container-body {
+      flex-wrap: wrap;
+    }
+  
+    .columna1 {
+      max-width: 100%;
+    }
+  
+    .columna2,
+    .columna3 {
+      margin-top: 40px;
+    }
+  }

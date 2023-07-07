@@ -1,0 +1,60 @@
+<%- include("templates/encabezado.ejs")%>
+<%- include("templates/menu-desplegable.ejs")%>
+
+<body class="res-med">
+<div>
+    <div class="container-med">
+        <div class="info-container-med">
+          <h2>Información sobre el manejo de residuos médicos</h2>
+          <p>
+            Los residuos médicos, como agujas, jeringas y materiales biológicos, deben ser manejados y dispuestos de forma segura para prevenir la propagación de enfermedades y proteger el medio ambiente. Algunas pautas para el manejo adecuado de residuos médicos incluyen:
+            <ul>
+              <li>Colocar los residuos médicos en contenedores adecuados y seguros.</li>
+              <li>Etiquetar claramente los contenedores como "Residuos Médicos" o utilizar símbolos reconocidos internacionalmente.</li>
+              <li>No desechar los residuos médicos en contenedores de basura regulares.</li>
+              <li>Contactar a servicios especializados para la recolección y disposición final de los residuos médicos.</li>
+            </ul>
+          </p>
+        </div>
+        <div class="img-med">
+            <img src="/GreenWaste/css/media/mapa-med.jpeg">
+          </div>
+      </div>
+      
+    </body>
+    
+    <!-- <script>
+      // Función de inicialización del mapa
+      function initMap() {
+        // Coordenadas del centro del mapa
+        var center = { lat: 40.7128, lng: -74.0060 };
+        
+        // Crea un nuevo mapa en el elemento con id "map"
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: center,
+          zoom: 12 // Nivel de zoom inicial del mapa
+        });
+        
+        // Agrega marcadores para los puntos de disposición segura
+        var marker1 = new google.maps.Marker({
+          position: { lat: 40.7128, lng: -74.0060 },
+          map: map,
+          title: 'Punto de disposición segura 1'
+        });
+        
+        var marker2 = new google.maps.Marker({
+          position: { lat: 40.7250, lng: -73.9940 },
+          map: map,
+          title: 'Punto de disposición segura 2'
+        });
+        
+      }
+    </script>
+    
+     Incluye la biblioteca de la Google Maps JavaScript API 
+    <script src="https://maps.googleapis.com/maps/api/js?key=TU_API_KEY&callback=initMap" async defer></script>
+    -->
+</div>
+
+
+<%- include("templates/pie.ejs")%>

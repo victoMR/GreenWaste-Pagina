@@ -1,0 +1,46 @@
+<%- include("templates/encabezado.ejs")%>
+<%- include("templates/menu-desplegable.ejs")%>
+
+<div class="Inicio">
+  <div class="contenido">
+    <div class="conten">
+      <div class="card"><img src="/GreenWaste/css/media/mundo1.png" /></div>
+      <div class="card"><img src="/GreenWaste/css/media/mundo2.jpeg" /></div>
+      <div class="card"><img src="/GreenWaste/css/media/reciclar.jpeg" /></div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="Organicos">
+    <a href="organicos">
+      <button type="submit" class="Org">
+        <img src="/GreenWaste/css/media/organicos.jpeg" alt="Organicos" />
+      </button>
+    </a>
+  </div>
+  <div class="Inorganicos">
+    <a href="inorganicos">
+      <button type="submit" class="Ing">
+        <img src="/GreenWaste/css/media/inorganicos.jpeg" alt="Inorganicos" />
+      </button>
+    </a>
+  </div>
+
+  <div class="Biohazard">
+    <a href="residuos_toxicos">
+      <button type="submit" class="Rec">
+        <img src="/GreenWaste/css/media/peligrosos.jpeg" />
+      </button>
+    </a>
+  </div>
+
+  <div class="Medicamentos">
+    <a href="residuos_medicos">
+      <button type="submit" class="Med">
+        <img src="/GreenWaste/css/media/medicos.jpeg" />
+      </button>
+    </a>
+  </div>
+</div>
+
+<%- include("templates/pie.ejs")%>
